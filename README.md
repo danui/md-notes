@@ -69,7 +69,7 @@ of a normal line_.  Mixing tabs and spaces may lead to unexpected
 results so there is reason to avoid use of tabs entirely.  That being
 said, it is more convenient to write pseudo code using tabs for
 indentation.  Thus the make file includes an alternative built step
-that inserts an untabify filter into `.md` to HTML convertion step.
+that inserts an untabify filter into `.md` to HTML conversion step.
 
                                        +----------------+
     [ file.md ]      (Markdown.pl) --> | generated HTML |
@@ -79,11 +79,11 @@ that inserts an untabify filter into `.md` to HTML convertion step.
 
 Alternatively, Emacs provides an untabify command.  To use it:
 
-  1. Select a region to unabify.
+  1. Select a region to untabify.
   2. Execute command `M-x untabify`
 
 This may however leave trailing spaces at the right side of line.  To
-remove those simply use regular expresion replacement from the top of
+remove those simply use regular expression replacement from the top of
 the file as follows:
 
   1. Execute command `M-x replace-regexp`
@@ -105,4 +105,3 @@ Burke][md-css-site].
 [md-script]: http://daringfireball.net/projects/downloads/Markdown_1.0.1.zip
 [md-css-site]: http://kevinburke.bitbucket.org/markdowncss
 [md-css]: http://kevinburke.bitbucket.org/markdowncss/markdown.css
-
