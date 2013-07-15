@@ -50,6 +50,9 @@ blocks.
     </style>
 
 <style>
+/* If you can see this you are probably reading this on GitHub and the
+   demo has failed!  However it should work fine on your own computer.
+   :) */
 code {
   font-family: courier;
   color: #080;
@@ -87,6 +90,9 @@ the file as follows:
   2. Provide as regular expression: '`\ +$`' (i.e. slash space plus dollar)
   3. Provide as replacement an empty string
 
+There are of course many other tricks to auto-indent code within text
+files but I think it best that I leave that up to you and your
+preferred text editor.
 
 Acknowledgements
 ----------------
