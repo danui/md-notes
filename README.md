@@ -24,6 +24,14 @@ ending with a `.md` suffix.
     [ file.md ] --> (Markdown.pl) --> | generated HTML |
                                       +----------------+
 
+Creating a new Document
+-----------------------
+
+To create a new document, use a text editor to create a `.md` file
+within the directory.  Once the file exists, running `make` will
+create a HTML file in the manner described above.  View the HTML file
+using a browser.
+
 Custom Styling
 --------------
 
